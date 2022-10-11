@@ -91,6 +91,6 @@ def GND(G):
         removal(G,node, disman)
 
 network = "Data.txt" # File with nodes and edges
-G = nx.read_edgelist(network) # NetworkX Graph for the network
-G.graph['cost'] = 0 #Start with cost zero of removal cause is the complete network
-GND(G)
+Net = nx.read_edgelist(network) # NetworkX Graph for the network
+Net.graph['cost'] = 0 #Start with cost zero of removal cause is the complete network
+GND(Net)
