@@ -12,7 +12,7 @@ Our analysis evaluates different strategies to dismantle these criminal organiza
 - `Data.txt`: Contains the graph representation of the network with 34 operator nodes, detailing the nodes and edges.
 - `Human_Capital.py`: Implements the algorithms necessary to identify the optimal strategy for isolating critical nodes in the network as described in the paper.
 - `Human Trafficking Network in Mexico (GND).py`: Implements the Generalize Network Dismantling Algorithm cited in the paper.
-- `labels.csv`: Provides labels for the dataset used in the analysis.
+- `labels.csv`: Contains a comprehensive mapping of role labels to the nodes listed in `Data.txt`, serving as a key to identify and categorize each node's function within the network.
 
 Our comprehensive dataset and algorithms provide a significant advancement in quantitatively understanding the roles and interactions of individuals within real-world human trafficking networks, as well as assessing the potential impact of various network dismantling strategies.
 
