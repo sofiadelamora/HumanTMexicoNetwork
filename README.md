@@ -1,8 +1,19 @@
-# HumanTMexicoNetwork
-This is the github with the codes for the Collective Interactions of a Human Trafficking Network in Mexico and the Limits of Dismantling Strategies paper.
+# Human Trafficking Network in Mexico (HumanTMexicoNetwork)
 
-Human tracking is a heartless crime that represents the second most profitable crime in the world. Mexico’s geographical position makes it a country with high levels of human tracking. Using the snowball sampling method, the major contribution of this paper is the abstraction of the criminal interactions of a human tracking network on the southern border of Mexico. Based on a social network analysis, it is identified that the criminal network is moderately centralized (44.32%) and with medium density (0.401). Therefore, the network has minimal cohesiveness and members may find it dicult to share information, money, or products among themselves. To evaluate di↵erent dismantling strategies to tackle the criminal organization, three algorithms are evaluated. We found that the first actors to be removed are neither the most connected nor the most peripheral, but the actors who are moderately connected to others of their kind should be removed. In summary, this paper provides a significant step forward to understand quantitatively the interactions of criminals and their roles in a real human tracking network and the limitations of dismantling strategies.
+This repository contains the code and data for the research paper titled "Modeling Human Trafficking Networks in Mexico and the Limits of Dismantling Strategies".
 
-In the txt file one will find the nodes and edges that fully describe the network of 34 operator nodes.
+## Overview
+Human trafficking is an egregious crime, ranking as the second most profitable illicit activity globally. Mexico, due to its strategic geographic location, experiences high levels of human trafficking. This research employs the snowball sampling method to abstract the interactions within human trafficking networks along Mexico's southern border. Utilizing social network analysis, we discovered that the network is moderately centralized (44.32%) and has a medium density (0.401), indicating limited cohesiveness and challenges in information, money, or product sharing within the network.
 
-The python file has the necessary algorithms in functions to find the optimal isolation strategy describen in the paper.
+## Key Findings
+Our analysis evaluates different strategies to dismantle these criminal organizations. The findings suggest that the initial focus should not be on the most connected or isolated individuals but rather on those with moderate connections within the network. This nuanced approach to network disruption is crucial for developing effective strategies against human trafficking.
+
+## Repository Contents
+- `Data.txt`: Contains the graph representation of the network with 34 operator nodes, detailing the nodes and edges.
+- `Human_Capital.py`: Implements the algorithms necessary to identify the optimal strategy for isolating critical nodes in the network as described in the paper.
+- `Human Trafficking Network in Mexico (GND).py`: Implements the Generalize Network Dismantling Algorithm cited in the paper.
+- `labels.csv`: Provides labels for the dataset used in the analysis.
+
+Our comprehensive dataset and algorithms provide a significant advancement in quantitatively understanding the roles and interactions of individuals within real-world human trafficking networks, as well as assessing the potential impact of various network dismantling strategies.
+
+Please refer to each document for a detailed description of its contents and role in the research.
